@@ -131,6 +131,7 @@ setup(
         ],
         'letsencrypt.plugins': [
             'manual = letsencrypt.plugins.manual:Authenticator',
+            'remote = letsencrypt.plugins.remote:Authenticator',
             'null = letsencrypt.plugins.null:Installer',
             'standalone = letsencrypt.plugins.standalone:Authenticator',
             'webroot = letsencrypt.plugins.webroot:Authenticator',
